@@ -25,6 +25,7 @@ let currentIndex = 1;
 let canControl = true; // Biến quyết định next/prev được hay khong
 
 setPosition(true);
+updateDots();
 
 function updateDots() {
     allDots.forEach((dot) => dot.classList.remove("active"));

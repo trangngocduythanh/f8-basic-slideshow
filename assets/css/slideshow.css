@@ -117,6 +117,7 @@ button {
 }
 
 .prev {
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -132,6 +133,7 @@ button {
 }
 
 .next {
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -152,6 +154,7 @@ button {
     padding: 14px 44px 0;
 }
 .pagination .dot {
+    cursor: pointer;
     width: 32px;
     height: 8px;
     border-radius: 4px;
